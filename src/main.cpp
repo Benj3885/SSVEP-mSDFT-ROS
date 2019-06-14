@@ -145,7 +145,7 @@ struct program {
             return;
         }
 
-        complex delta =  - rN * ch.oldest_data;
+        complex delta = ch.newest_data - rN * ch.oldest_data;
         for (int i = 0; i < nFreqs; ++i) {
             ch.freqs[i] = r * (ch.freqs[i] + delta) * co[i];
             ch.powr[i] = abs(ch.freqs[i]/double(N));
