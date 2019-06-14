@@ -15,7 +15,7 @@ float b[10] = {-6.72679683930659, 20.8674678136428, -39.468136495964, 50.5350124
 
 typedef std::complex<double> complex;
 
-
+// This deinfes the frequency bins
 const int startFreq = 6;
 const int stopFreq = 18;
 const int nFreqs = (stopFreq - startFreq) * 10;
