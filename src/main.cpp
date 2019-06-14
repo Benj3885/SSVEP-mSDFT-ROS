@@ -5,7 +5,7 @@
 
 #define PI 3.14159265359
 
-const int N = 200;
+const int N = 128;
 
 // index for input and output signals
 unsigned int idx = 0;
