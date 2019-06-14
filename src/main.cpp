@@ -1,7 +1,6 @@
 #include "ros/ros.h"
 #include "complex.h"
 #include "emotiv_msgs/Data.h"
-#include "std_msgs/Float32.h"
 #include "commands.h"
 
 #define PI 3.14159265359
